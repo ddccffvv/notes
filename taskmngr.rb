@@ -14,7 +14,7 @@ end
 
 class Subject
 	attr_reader :title, :notes
-	def initialize(title
+	def initialize(title)
 		@notes = []
 		@title = title
 	end
